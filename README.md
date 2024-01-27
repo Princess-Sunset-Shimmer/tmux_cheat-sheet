@@ -1,63 +1,13 @@
-# tmux_cheat-sheet
-a simple cheat sheet help new comers to use tmux
-```
-tmux
-|
-+-- session command
-|   |
-|   +-- tmux  // create session
-|   |
-|   +-- tmux list-session  // tmux ls
-|   |
-|   +-- tmux attach  // tmux a; attach session
-|   |
-|   +-- tmux attach -t name  // tmux a -t name; attach target session
-|
-+-- operation
-    |
-    +-- prefix
-    |   |
-    |   +-- ctrl + b  // entry prefix
-    |   |
-    |   +-- ctrl + d  // delete pane
-    |
-    +-- subfix
-        |
-        +-- session
-        |   |
-        |   +-- s  // session panel
-        |   |
-        |   +-- d  // disconnect session
-        |   |
-        |   +-- $  // rename session
-        |
-        +-- window
-        |   |
-        |   +-- create
-        |   |   |
-        |   |   +-- c  // create new window
-        |   |   |
-        |   |   +-- &  // kill window
-        |   |   |
-        |   |   +-- ,  // rename window
-        |   |
-        |   +-- navigate
-        |       |
-        |       +-- p  // previous window
-        |       |
-        |       +-- n  // next window
-        |
-        +-- pane
-            |
-            +-- split
-            |   |
-            |   +-- %  // split vertical
-            |   |
-            |   +-- "  // split horizontal
-            |
-            +-- navigate
-                |
-                +-- left, down, up, right
-                    |
-                    +-- left, down, up, right
-```
+# tmux fastest cheat sheet
+tmux is terminal multiplexer that allow you run multiple terminals inside terminal. here is the minimal cheat sheet that help you use tmux:\
+command `tmux` launch a new tmux terminal session with one terminal window\
+`Ctrl` + `B` then `D` detach tmux terminal session and go back to home terminal\
+command `tmux a` attach terminal session\
+`Ctrl` + `B` then `W` list all terminal sessions; `H` `J` `K` `L` to navigate; `Enter` to enter in; `X` to kill\
+`Ctrl` + `B` then `%` add new terminal window pane horizontally\
+`Ctrl` + `B` then `"` add new terminal window pane vertically\
+`Ctrl` + `B` then ⬅️ ⬆️ ⬇️ ➡️ navigate activation to another pane\
+`Ctrl` + `B` then `{` move current pane to left\
+`Ctrl` + `B` then `}` move current pane to righr\
+`Ctrl` + `B` then `Z` zoom in current pane to full screen or zoom out full screen\
+`Ctrl` + `B` then `X` to kill current window pane
