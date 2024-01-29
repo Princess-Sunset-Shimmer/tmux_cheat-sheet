@@ -1,8 +1,8 @@
 # tmux fastest cheat sheet
+tmux is terminal multiplexer that allow you run multiple terminals inside terminal. here is the minimal cheat sheet that help you use tmux:
 - [operation](#operation "goto operation")
 - [configuration](#configuration "goto configuration")
 ### operation
-tmux is terminal multiplexer that allow you run multiple terminals inside terminal. here is the minimal cheat sheet that help you use tmux:\
 command `tmux` launch a new tmux terminal session with one terminal window\
 `Ctrl` + `B` then `D` detach tmux terminal session and go back to home terminal\
 command `tmux a` attach terminal session\
