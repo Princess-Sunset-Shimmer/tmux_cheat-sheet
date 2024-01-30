@@ -16,6 +16,8 @@ command `tmux a` attach terminal session\
 `Ctrl` + `B` then `X` to kill current window pane
 ### configuration
 systemwide config file `/etc/tmux.conf`\
-user specific config file `~/.tmux.conf`
+user specific config file `~/.tmux.conf`\
+\
+command `tmux source-file /etc/tmux.conf` reload config file\
 - - - -
 Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
