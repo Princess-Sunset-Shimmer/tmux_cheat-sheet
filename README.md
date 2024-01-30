@@ -7,6 +7,7 @@ command `tmux` launch a new tmux terminal session with one terminal window\
 `Ctrl` + `B` then `D` detach tmux terminal session and go back to home terminal\
 command `tmux a` attach terminal session\
 `Ctrl` + `B` then `W` list all terminal sessions; `H` `J` `K` `L` to navigate; `Enter` to enter in; `X` to kill\
+\
 `Ctrl` + `B` then `%` add new terminal window pane horizontally\
 `Ctrl` + `B` then `"` add new terminal window pane vertically\
 `Ctrl` + `B` then ⬅️ ⬆️ ⬇️ ➡️ navigate activation to another pane\
