@@ -7,11 +7,7 @@ command `tmux` launch a new tmux terminal session with one terminal window\
 `Ctrl` + `B` then `:new` add a new tmux terminal session with one terminal window\
 `Ctrl` + `B` then `D` detach tmux terminal session and go back to home terminal\
 command `tmux a` attach terminal session back\
-`Ctrl` + `B` then `S` list all terminal sessions;
-|__> `H` `J` `K` `L` to navigate;\
-|__> `Enter` to enter in;\
-|__> `X` to kill;\
-|__> `Esc` go back\
+`Ctrl` + `B` then `S` list all terminal sessions; `H` `J` `K` `L` to navigate; `Enter` to enter in; `X` to kill; `Esc` go back\
 \
 `Ctrl` + `B` then `C` add a new terminal window\
 `Ctrl` + `B` then `N` go next window\
