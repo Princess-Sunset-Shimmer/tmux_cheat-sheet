@@ -20,11 +20,14 @@ command `tmux a` attach terminal session back\
 `Ctrl` + `B` then `{` move current pane to left\
 `Ctrl` + `B` then `}` move current pane to righr\
 `Ctrl` + `B` then `Z` zoom in current pane to full screen or zoom out full screen\
-`Ctrl` + `B` then `X` to kill current window or pane
+`Ctrl` + `B` then `X` to kill current window or pane\
+
+`Ctrl` + `B` then `T` show big clock; any key to exit clock
 ### configuration
 systemwide config file `/etc/tmux.conf`\
 user specific config file `~/.tmux.conf`\
 \
 command `tmux source-file /etc/tmux.conf` reload config file\
+
 - - - -
 Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
