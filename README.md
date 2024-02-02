@@ -47,5 +47,12 @@ command `tmux source-file /etc/tmux.conf` reload config file\
 `set -g status-left "[#S]"` set contents of status bar left side\
 \
 `set -g message-status bg=black,fg=white` set message bar colors
+| tmux replacement   | means                        |
+| ------------------ | ---------------------------- |
+| `#(shell-command)` | first line of command output |
+| `#[attributes]`    | change Colors or Attributes  |
+| `#H`               | full Hostname                |
+| `#h`               | short hostname               |
+
 - - - -
 Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
