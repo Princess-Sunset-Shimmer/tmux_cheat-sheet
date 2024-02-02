@@ -27,10 +27,24 @@ command `tmux a` attach terminal session back\
 \
 `Ctrl` + `B` then `T` show big clock; any key to exit clock
 ### configuration
-systemwide config file `/etc/tmux.conf`\
-user specific config file `~/.tmux.conf`\
+systemwide config file: `/etc/tmux.conf`\
+user specific config file: `~/.tmux.conf`\
 \
 command `tmux source-file /etc/tmux.conf` reload config file\
-
+\
+`set -g pane-border-status top` add status border to top of pane\
+`set -g pane-border-status bottom` add status border to bottom of pane\
+`set -g pane-border-style fg=brightcyan` set pane border color, `bg=green,fg=cyan` set both background and foreground color\
+`set -g pane-active-border-style fg=white` set active pane border color, `bg=blue,fg=yellow` set both background and foreground color\
+`set -g pane-border-format "#[fg=red]<#P>#[fg=green]#{pane_current_path}>"` set contents of pane status border, `""` clear contents\
+\
+`set -g status-position top` move status bar to top\
+`set -g status-style bg=black` set tatus bar color, `bg=black,fg=brightblue` set both background and foregound color\
+`set -g status-justify centre` move window list to centre\
+`set -g window-status-current-format "#{?window_zoomed_flag,( #I ),(#I)}"` set contents of current window in window list, `#{?window_zoomed_flag,TEXT_WHEN_WHEN_WINDOW_ZOOM,TEXT_WHEN_WINDOW_NOT_ZOOM}`\
+`set -g window-status-format " #I "` set contnets of other windows in window list\
+`set -g status-right "#[fg=cyan]%I:%M %p "` set contents of status bar right side\
+`set -g status-left "[#S]"` set contents of status bar left side\
+`set -g message-status bg=black,fg=white` set message bar colors
 - - - -
 Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
