@@ -7,12 +7,11 @@ command `tmux` launch a new tmux terminal session with one terminal window\
 `Ctrl` + `B` then `:new` add a new tmux terminal session with one terminal window\
 `Ctrl` + `B` then `D` detach tmux terminal session and go back to home terminal\
 command `tmux a` attach terminal session back\
-`Ctrl` + `B` then `S` list all terminal sessions; `H` `J` `K` `L` to navigate; `Enter` to enter in; `X` to kill; `Esc` go back\
+`Ctrl` + `B` then `S` list all terminal Sessions and Windows; `H` `J` `K` `L` to navigate; `Enter` to enter in; `X` to kill; `Esc` go back\
 \
 `Ctrl` + `B` then `C` add a new terminal window\
 `Ctrl` + `B` then `N` go next window\
 `Ctrl` + `B` then `P` go previous window\
-`Ctrl` + `B` then `W` list all terminal windows; `H` `J` `K` `L` to navigate; `Enter` to enter in; `X` to kill; `Esc` go back\
 \
 `Ctrl` + `B` then `%` add new terminal window pane horizontally\
 `Ctrl` + `B` then `"` add new terminal window pane vertically\
@@ -21,7 +20,11 @@ command `tmux a` attach terminal session back\
 `Ctrl` + `B` then `}` move current pane to righr\
 `Ctrl` + `B` then `Z` zoom in current pane to full screen or zoom out full screen\
 `Ctrl` + `B` then `X` to kill current window or pane\
-
+`Ctrl` + `B` then `:resize-pane -L 1` resize pane 1 unit more to Left\
+`Ctrl` + `B` then `:resize-pane -D 1` resize pane 1 unit more to Down\
+`Ctrl` + `B` then `:resize-pane -U 1` resize pane 1 unit more to Up\
+`Ctrl` + `B` then `:resize-pane -R 1` resize pane 1 unit more to Right\
+\
 `Ctrl` + `B` then `T` show big clock; any key to exit clock
 ### configuration
 systemwide config file `/etc/tmux.conf`\
