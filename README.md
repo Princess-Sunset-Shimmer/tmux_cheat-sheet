@@ -12,14 +12,14 @@ command `tmux a` attach terminal session back\
 `Ctrl` + `B` then `C` add a new terminal window\
 `Ctrl` + `B` then `N` go next window\
 `Ctrl` + `B` then `P` go previous window\
+`Ctrl` + `B` then `X` to kill current window or pane\
 \
 `Ctrl` + `B` then `%` add new terminal window pane horizontally\
 `Ctrl` + `B` then `"` add new terminal window pane vertically\
 `Ctrl` + `B` then ⬅️ ⬆️ ⬇️ ➡️ navigate activation to another pane\
 `Ctrl` + `B` then `{` move current pane to left\
 `Ctrl` + `B` then `}` move current pane to righr\
-`Ctrl` + `B` then `Z` zoom in current pane to full screen or zoom out full screen\
-`Ctrl` + `B` then `X` to kill current window or pane\
+`Ctrl` + `B` then `Z` zoom current pane to full screen or unzoom\
 `Ctrl` + `B` then `:resize-pane -L 1` resize pane 1 unit more to Left\
 `Ctrl` + `B` then `:resize-pane -D 1` resize pane 1 unit more to Down\
 `Ctrl` + `B` then `:resize-pane -U 1` resize pane 1 unit more to Up\
@@ -45,6 +45,7 @@ command `tmux source-file /etc/tmux.conf` reload config file\
 `set -g window-status-format " #I "` set contnets of other windows in window list\
 `set -g status-right "#[fg=cyan]%I:%M %p "` set contents of status bar right side\
 `set -g status-left "[#S]"` set contents of status bar left side\
+\
 `set -g message-status bg=black,fg=white` set message bar colors
 - - - -
 Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
