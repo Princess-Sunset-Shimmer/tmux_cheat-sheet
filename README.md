@@ -53,6 +53,12 @@ command `tmux source-file /etc/tmux.conf` reload config file\
 | `#[attributes]`    | change Colors or Attributes  |
 | `#H`               | full Hostname                |
 | `#h`               | short hostname               |
-
+| `#S`               | Session name                 |
+| `#W`               | Window name                  |
+| `#T`               | window Title                 |
+| `#I`               | window Index                 |
+| `#F`               | window Flag                  |
+| `#P`               | Pane index                   |
+| `##`               | literal #                    |
 - - - -
 Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
