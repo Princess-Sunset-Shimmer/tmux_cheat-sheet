@@ -28,7 +28,7 @@ command `tmux a` attach terminal session back\
 `Ctrl` + `B` then `T` show big clock; any key to exit clock
 ### configuration
 systemwide config file: `/etc/tmux.conf`\
-user specific config file: `~/.tmux.conf`\
+user specific config file: `~/.tmux.conf`
 - - - -
 command `tmux source-file /etc/tmux.conf` reload config file\
 - - - -
