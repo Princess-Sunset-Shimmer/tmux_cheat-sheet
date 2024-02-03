@@ -60,5 +60,22 @@ command `tmux source-file /etc/tmux.conf` reload config file\
 | `#F`               | window Flag                  |
 | `#P`               | Pane index                   |
 | `##`               | literal #                    |
+
+| color         | bg support | fg support |
+| ------------- | ---------- | ---------- |
+| black         | ✔️         | ✔️         |
+| white         | ✔️         | ✔️         |
+| red           | ✔️         | ✔️         |
+| green         | ✔️         | ✔️         |
+| blue          | ✔️         | ✔️         |
+| magenta       | ✔️         | ✔️         |
+| yellow        | ✔️         | ✔️         |
+| cyan          | ✔️         | ✔️         |
+| brightred     |            | ✔️         |
+| brightgreen   |            | ✔️         |
+| brightblue    |            | ✔️         |
+| brightmagenta |            | ✔️         |
+| brightyellow  |            | ✔️         |
+| brightcyan    |            | ✔️         |
 - - - -
 Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
