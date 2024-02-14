@@ -38,7 +38,7 @@ command `tmux source-file /etc/tmux.conf` reload config file\
 `set -g pane-border-status bottom` add status border to bottom of pane\
 `set -g pane-border-style fg=brightcyan` set pane border color, `bg=green,fg=cyan` set both background and foreground color\
 `set -g pane-active-border-style fg=white` set active pane border color, `bg=blue,fg=yellow` set both background and foreground color\
-`set -g pane-border-format "#[fg=red]<#P>#[fg=green]#(pwd)>"` set contents of pane status border, `""` clear contents
+`set -g pane-border-format "#[fg=red]<#P>#[fg=green]#{pane_current_path}>"` set contents of pane status border, `""` clear contents
 - - - -
 `set -g status-position top` move status bar to top\
 `set -g status-style bg=black` set tatus bar color, `bg=black,fg=brightblue` set both background and foregound color\
