@@ -40,6 +40,9 @@ user specific config file: `~/.tmux.conf`
 command `tmux source-file /etc/tmux.conf` reload config file\
 - - - -
 - - - -
+`set -g mouse on` to use mouse in tmux
+- - - -
+- - - -
 `set -g pane-border-status top` add status border to top of pane\
 `set -g pane-border-status bottom` add status border to bottom of pane\
 `set -g pane-border-style fg=brightcyan` set pane border color, `bg=green,fg=cyan` set both background and foreground color\
@@ -57,6 +60,9 @@ command `tmux source-file /etc/tmux.conf` reload config file\
 - - - -
 - - - -
 `set -g message-status bg=black,fg=white` set message bar colors
+- - - -
+- - - -
+`set -g clock-mode-colour magenta` change big clock color to magenta
 - - - -
 
 | tmux replacement   | means                        |
