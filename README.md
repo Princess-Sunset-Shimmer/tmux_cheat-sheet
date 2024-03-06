@@ -8,13 +8,13 @@ command `tmux` launch a new tmux terminal session with one terminal window\
 `Ctrl` + `B` then `:new` add a new tmux terminal session with one terminal window\
 `Ctrl` + `B` then `D` detach tmux terminal session and go back to home terminal\
 command `tmux a` attach terminal session back\
-`Ctrl` + `B` then `S` list all terminal Sessions and Windows; `H` `J` `K` `L` to navigate; `Enter` to enter in; `X` to kill; `Esc` go back\
+`Ctrl` + `B` then `S` list all terminal Sessions and Windows; `H` `J` `K` `L` to navigate; `Enter` to enter in; `X` to kill; `Esc` go back
 - - - -
 - - - -
 `Ctrl` + `B` then `C` add a new terminal window\
 `Ctrl` + `B` then `N` go next window\
 `Ctrl` + `B` then `P` go previous window\
-`Ctrl` + `B` then `X` to kill current window or pane\
+`Ctrl` + `B` then `X` to kill current window or pane
 - - - -
 - - - -
 `Ctrl` + `B` then `%` add new terminal window pane horizontally\
@@ -37,7 +37,7 @@ command `tmux a` attach terminal session back\
 systemwide config file: `/etc/tmux.conf`\
 user specific config file: `~/.tmux.conf`
 - - - -
-command `tmux source-file /etc/tmux.conf` reload config file\
+command `tmux source-file /etc/tmux.conf` reload config file
 - - - -
 - - - -
 `set -g mouse on` to use mouse in tmux
@@ -59,7 +59,7 @@ command `tmux source-file /etc/tmux.conf` reload config file\
 `set -g status-left "[#S]"` set contents of status bar left side
 - - - -
 - - - -
-`set -g message-status bg=black,fg=white` set message bar colors
+`set -g message-style bg=black,fg=white` set message bar colors
 - - - -
 - - - -
 `set -g clock-mode-colour magenta` change big clock color to magenta
