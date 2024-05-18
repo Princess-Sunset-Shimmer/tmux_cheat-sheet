@@ -31,8 +31,11 @@ command `tmux a` attach terminal session back\
 `Ctrl` + `B` then `:break-pane` break current pane to a window
 - - - -
 - - - -
-`Ctrl` + `B` then `[` enter copy mode
-
+`Ctrl` + `B` then `[` enter copy mode\
+⬅️ ⬆️ ⬇️ ➡️ to navigate\
+` space bar ` to select\
+` Enter ` to copy\
+`Q` quit copy mode
 - - - -
 - - - -
 `Ctrl` + `B` then `T` show big clock; any key to exit clock
